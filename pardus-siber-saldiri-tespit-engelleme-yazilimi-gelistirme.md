@@ -1,4 +1,4 @@
-# Pardus üzerinde siber güvenlik sağlayan, ip yasaklayan yazılım geliştirme
+# Pardus Üzerinde Siber Güvenlik Sağlayan, IP Yasaklayan Yazılım Geliştirme
 
 Pardus üzerinde ağ saldırılarını tespit etmek ve iptables üzerinden yasaklama yapmak için bir servis yazılımı geliştirebilirsiniz. Bu yazılım, ağ trafiğini izleyerek anormal davranışlar (örneğin, çok sayıda başarısız oturum açma denemesi, belirli IP'lerden gelen anormal trafik vb.) tespit edebilir ve tespit edilen IP adreslerini `iptables` ile engelleyebilir. Aşağıda bu süreci adım adım açıklayan bir çözüm önerisi bulunmaktadır.
 
